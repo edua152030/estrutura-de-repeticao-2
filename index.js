@@ -231,16 +231,19 @@ document.write(cont)*/
 enquanto a soma seja menor que 500 e no final mostre qual o
 último valor 
 
+let numero = Number(prompt('Digite o numero a ser realizado o calculo'))
+let calculo = 0
+document.write = 0
 
-let valor = 3
-let soma = 0; 
-
-while (soma < 500) {
-  soma += valor * 3; 
-}
-
-let ultimo = soma - valor * 3; 
-console.log(ultimo);*/
+while(calculo < 500){
+    const multiplicador = 3
+    let soma = numero * multiplicador
+    numero = soma
+    resultado += soma   
+        if(soma <= 500){
+            document.write(`${soma}`)
+        }
+}*/
 
 
 /**15. Crie um algoritmo que armazene três valores, para cada um dos
